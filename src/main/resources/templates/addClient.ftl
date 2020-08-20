@@ -6,9 +6,16 @@
     <title>Clients Table</title>
     <link rel="stylesheet"
           type="text/css" href="<@spring.url '/css/style.css'/>"/>
+    <style>
+        table {
+            display:block;
+            width:177px;
+            margin:20px auto;
+        }
+    </style>
 </head>
 <body>
-<div>
+<div> <center>
     <fieldset>
         <legend>Add Clients</legend>
         <form name="clients" action="" method="POST">
@@ -33,6 +40,7 @@
             <input type="submit" value="Create"/>
         </form>
     </fieldset>
+    </center>
 </div>
 </body>
 </html>

@@ -6,12 +6,20 @@
     <title>Car Table</title>
     <link rel="stylesheet"
           type="text/css" href="<@spring.url '/css/style.css'/>"/>
+    <style>
+    table {
+    display:block;
+    width:177px;
+    margin:20px auto;
+    }
+    </style>
 </head>
 <body>
-<div>
+<div> <center>
     <fieldset>
         <legend>Add Car</legend>
         <form name="car" action="" method="POST">
+
         <table>
             <tr>
             <td>Name: </td><td><@spring.formInput "carForm.brand" "" "text"/></td>
@@ -29,6 +37,7 @@
             <input type="submit" value="Save"/>
         </form>
     </fieldset>
+    </center>
 </div>
 </body>
 </html>

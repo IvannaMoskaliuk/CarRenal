@@ -2,21 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Rental Car</title>
+    <base target="_blank">
+    <style>
+        body {
+            background: wheat url(owl.png) no-repeat center top fixed;
+            color: blue;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+    <style>
+        #col li {
+            display: block;
+            float: left;
+            width: 50%;
+            border: 0px solid #ccc;
+        }
+        #col {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
-<h1>Hello, World</h1>
-<ul type="square">
+<center>
+<h1>Rental Cars</h1>
+</center>
+<font face="Arial" size="5"> <b>
+    <center>
+<ul type="square" id="col">
 
-    <li><p><a href="/web/car/get/list">CAR list WEB</a></p> </li>
-    <li><p><a href="/api/car/v2/">CAR list Rest</a></p></li>
+    <li><p><a href="//localhost:8080/web/car/get/list">CAR list WEB</a></p> </li>
+    <li><p><a href="//localhost:8080/api/car/v2/">CAR list Rest</a></p></li>
 
-    <li><p><a href="/web/clients/get/list">CLIENTS list WEB</a></p></li>
-    <li><p><a href="/api/clients/v2/">CLIENTS list Rest</a></p></li>
+    <li><p><a href="//localhost:8080/web/clients/get/list">CLIENTS list WEB</a></p></li>
+    <li><p><a href="//localhost:8080/api/clients/v2/">CLIENTS list Rest</a></p></li>
 
-    <li><p><a href="/web/issuedcars/get/list">Issued Cars list WEB</a></p></li>
-    <li><p><a href="/api/issuedcars/v2/">Issued Cars list Rest</a></p></li>
-
+    <li><p><a href="//localhost:8080/web/issuedcars/get/list">Issued Cars list WEB</a></p></li>
+    <li><p><a href="//localhost:8080/api/issuedcars/v2/">Issued Cars list Rest</a></p></li>
 </ul>
+    </center>
+</b>
+
+</font>
 </body>
 </html>

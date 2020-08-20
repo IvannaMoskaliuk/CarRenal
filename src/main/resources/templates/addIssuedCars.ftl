@@ -6,9 +6,16 @@
     <title>Title</title>
     <link rel="stylesheet"
           type="text/css" href="<@spring.url '/css/style.css'/>"/>
+    <style>
+        table {
+            display:block;
+            width:177px;
+            margin:20px auto;
+        }
+    </style>
 </head>
 <body>
-<div>
+<div> <center>
     <fieldset>
         <legend>Add Issued Cars</legend>
         <form name="issuedcars" action="" method="POST">
@@ -26,6 +33,7 @@
                 <input type="submit" value="Create"/>
         </form>
     </fieldset>
+    </center>
 </div>
 </body>
 </html>

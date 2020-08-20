@@ -16,6 +16,7 @@ public class CarRestController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     List<Car> getCarList(){
+
         return carService.getAll();
     }
 

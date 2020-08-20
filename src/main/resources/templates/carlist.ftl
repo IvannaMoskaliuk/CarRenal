@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
           crossorigin="anonymous">
+    <style>
+        body {
+            background: darkgray url(https://lh3.googleusercontent.com/proxy/c2DygugPIbcrE6XADdHbbK6SFfxbsoX12OjRNqPWBYN3iaxZDh6Rwwr18BgIUbgo1Dszet0UupBqVUO9vCKOL6kwVRGoSGHJLA); /* Фоновый цвет и фоновый рисунок*/
+            color: blue;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        table {
+            opacity: 0.7; /* Полупрозрачность таблицы */
+            filter: alpha(Opacity=50); /*!* Для IE *!*/
+        }
+        td{
+            color: wheat;
+        }
+
+    </style>
 </head>
-<body>
-<h1> Hello CARS</h1>
+<body> <center>
+<h1> CAR List</h1> </center>
 <div>
     <form method="get">
         <input type="text" value="" name= "Search">
@@ -51,5 +67,6 @@
             ">
     </a>
 </div>
+
 </body>
 </html>
